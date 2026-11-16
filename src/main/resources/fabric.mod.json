@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "irani_tuber",
+	"version": "${version}",
+	"name": "Irani Youtuber",
+	"description": "A Persian-speaking Iranian YouTuber and his friends. Film videos with the camera and grow your channel!",
+	"authors": [
+		"You"
+	],
+	"license": "MIT",
+	"icon": "assets/irani_tuber/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.iranituber.IraniTuberMod"
+		],
+		"client": [
+			"com.iranituber.client.IraniTuberClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
